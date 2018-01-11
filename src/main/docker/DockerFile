@@ -1,0 +1,3 @@
+FROM openjdk-8
+COPY EurekaServer-0.0.1-SNAPSHOT.jar /home/EurekaServer.jar
+CMD ["java" , "-jar" , "/home/EurekaServer.jar"]
